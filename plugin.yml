@@ -1,0 +1,11 @@
+name: Economy
+main: economy\EconomyMain
+
+version: 1.0.0
+api: 2.0.0
+
+prefix: "Economy"
+description: "Cool economy plugin"
+
+author: Lunarelly
+website: https://github.com/Lunarelly

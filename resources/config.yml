@@ -1,0 +1,24 @@
+# Economy plugin config
+
+# Config version. Don't change it!
+config-version: 1.0
+
+# Default money value (for new players)
+default-money: 1000
+
+# Messages for commands. Availible tags: {MONEY}, {PLAYER}, {SENDER}
+messages:
+  not-enough-money: "You don't have enough money to do that!"
+  incorrect-value: "Incorrect value! Value should be > 0"
+  addmoney-success: "You have successfully gave {MONEY} to {PLAYER}"
+  addmoney-player: "{SENDER} have given {MONEY} to you"
+  mymoney-success: "Your money: {MONEY}"
+  paymoney-success: "You have paid {MONEY} to {PLAYER}"
+  paymoney-player: "{SENDER} have paid {MONEY} to you"
+  reducemoney-success: "You have reduced {MONEY} from {PLAYER}"
+  reducemoney-player: "{SENDER} have reduced {MONEY} from you"
+  seemoney-success: "{PLAYER}'s money: {MONEY}"
+  setmoney-success: "You have successfully set {PLAYER}'s money to {MONEY}"
+  setmoney-player: "{SENDER} have set your money to {MONEY}"
+
+# Made with <3 by Lunarelly (https://github.com/Lunarelly)
