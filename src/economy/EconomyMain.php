@@ -76,8 +76,9 @@ final class EconomyMain extends PluginBase {
         $this->registerPermissions();
         $this->registerListeners();
         $this->saveDefaultConfig();
-        @mkdir($this->getDataFolder());
-        @mkdir($this->getDataFolder() . "data");
+        if(!(is_dir($this->getDataFolder() . "data"))) {
+            @mkdir($this->getDataFolder() . "data");
+        }
         $this->moneyConfig = new Config($this->getDataFolder() . "data/money.json", Config::JSON);
     }
 
