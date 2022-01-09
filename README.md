@@ -14,6 +14,7 @@
 - Example (you can find all api functions in EconomyMain.php)
 ```php
 # $player has Player instance
+
 $economy = Server::getInstance()->getPluginManager()->getPlugin("Economy");
 
 # This function will add 1000 coins to player
